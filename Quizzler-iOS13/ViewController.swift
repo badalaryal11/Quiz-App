@@ -20,11 +20,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var falseButton: UIButton!
     
     let quiz = [
-        ["The Capital of Nepal is Kathmandu.", "True"],
-        ["The Capital of India is Mumbai.","False"],
-        ["The Capital of China is Bejing.","True"]
+        Questions(text: "The Capital of Nepal is Kathmandu.", answer: "True"),
+        Questions(text: "The Capital of India is Mumbai.", answer: "False"),
+        Questions(text: "The Capital of China is Kathmandu.", answer: "True"),
+        ]
         
-    ]
     
     var questionNumber = 0
     
@@ -41,7 +41,7 @@ class ViewController: UIViewController {
     @IBAction func answerButtonPrssed(_ sender: UIButton) {
         
         let userAnswer = sender.currentTitle // true, false
-        let actualAnswer = quiz[questionNumber][1]
+        let actualAnswer = quiz[questionNumber].answer
         
         if userAnswer == actualAnswer{
             print("Right!")
@@ -59,7 +59,7 @@ class ViewController: UIViewController {
         
     }
     func updateUI(){
-        questionLabel.text = quiz[questionNumber][0]
+        questionLabel.text = quiz[questionNumber].text
         
         
     }
