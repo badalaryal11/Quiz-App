@@ -22,7 +22,8 @@ class ViewController: UIViewController {
     let quiz = [
         Questions(text: "The Capital of Nepal is Kathmandu.", answer: "True"),
         Questions(text: "The Capital of India is Mumbai.", answer: "False"),
-        Questions(text: "The Capital of China is Kathmandu.", answer: "True"),
+        Questions(text: "The Capital of China is Beijing", answer: "True"),
+        
         ]
         
     
