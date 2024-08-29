@@ -1,8 +1,8 @@
 # Quiz App
-* Description: This is an iOS app that the users can play quiz in it and all the question are objective in it to make it more intractive
-* Technologies Used: Swift, UIKit, CoreData, Realm, Cocoapods
-* Features: Add things to remember, customize color and interface and delete To-do list.
-* Contribution: Developed the user interface using UIKit, optimized backend communication with CoreData and Realm.
+* Description: This is an iOS app that the users can play quiz in it and all the question are objective (Yes/No) in it to make it more intractive.
+* Technologies Used: Swift, UIKit, MVC
+* Features: Add things to remember, customize color and interface and design according to HIG for iPhone .
+* Contribution: Developed the user interface using UIKit, optimized backend communication with Model by the help of View and controller.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6b9437cd-0b45-4c48-be1f-4c7bb3652078" alt="Alt Text" width="200"/>
